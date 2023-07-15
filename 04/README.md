@@ -28,7 +28,7 @@ plt.savefig('ex1.png')
 # <<< TODO
 ```
 
-![output1](/.readme/output1.png)
+![output1](.readme/output1.png)
 
 2. 利用第1讲练习2生成的字符图像数据集，分别统计每幅图像上半部和下半部的黑像素数目（可利用PIL库），把这两个数值组成该图像的特征向量。全部统计完成后，绘制所有图像样本在特征空间的散点图，注明横纵坐标含义及图题。
 
@@ -70,7 +70,7 @@ plt.title('图像的特征向量')
 Text(0.5, 1.0, '图像的特征向量')
 ```
 
-![output2](/.readme/output2.png)
+![output2](.readme/output2.png)
 
 3. 对于上一步生成的特征向量，估计二元正态分布的均值向量和协方差矩阵，绘制二元正态分布概率密度函数的三维曲面图
 
@@ -116,7 +116,7 @@ ax.set_title('二元正态分布概率密度函数的三维曲面图')
 Text(0.5, 0.92, '二元正态分布概率密度函数的三维曲面图')
 ```
 
-![output3](/.readme/output3.png)
+![output3](.readme/output3.png)
 
 4. 在大作业1中，我们计算了不同算法的运行时间（例如 Numpy采用循环计算，Numpy矩阵计算，Pytorch Tensor矩阵计算），为了使结果更加直观，我们用条形图来对实验中得到的各个部分的运行时间进行展示。如有需要，可以考虑利用`plt.yscale("log")`设置条形图纵坐标为对数坐标，使图像更为清晰。
 
@@ -154,4 +154,4 @@ plt.suptitle('不同算法的运行时间')
 Text(0.5, 0.98, '不同算法的运行时间')
 ```
 
-![output4](/.readme/output4.png)
+![output4](.readme/output4.png)

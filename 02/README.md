@@ -186,6 +186,7 @@ indexes = pair_list
 ## 使用 NumPy 和矩阵运算
 
 其实，我们可以使用矩阵运算一次性计算所有图像的两两相似度，这可以大大加快计算速度。计算公式如下：
+
 $$
 \mathbf Y = \begin{pmatrix}
 \boldsymbol y_1^\intercal \\
@@ -243,7 +244,7 @@ def plot_results(data, S, indexes):
 plot_results(data, S, indexes)
 ```
 
-![output2](/.readme/output2.png)
+![output2](.readme/output2.png)
 
 ## 使用 PyTorch 和矩阵运算
 
@@ -288,7 +289,7 @@ indexes = [(Ssort[-i-1]//len(data), Ssort[-i-1] % len(data)) for i in range(int(
 plot_results(data, S, indexes)
 ```
 
-![output3](/.readme/output3.png)
+![output3](.readme/output3.png)
 
 ## NumPy 和 PyTorch 速度测试
 

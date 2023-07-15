@@ -83,9 +83,9 @@ plt.axis('off')
 (-0.5, 47.5, 47.5, -0.5)
 ```
 
-![output1](/.readme./output1.png)
+![output1](.readme./output1.png)
 
-![output2](/.readme./output2.png)
+![output2](.readme./output2.png)
 
 OpenCV读取的图像是numpy的ndarrays格式，需要将其转换为tensor。
 
@@ -138,4 +138,4 @@ else:
     
 ```
 
-![output3](/.readme/output3.png)
+![output3](.readme/output3.png)
